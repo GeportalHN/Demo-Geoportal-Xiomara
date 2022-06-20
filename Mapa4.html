@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa vista 3.</title>
+</head>
+<body>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'> 
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <!--estilos Javascript-->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" /> 
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin=""/> 
+        <!--Agregar estilos css-->
+        <link rel="stylesheet" href="Inicio.css"> 
+        <header>
+
+            <div id="menu-bar" class="fas fa-bars"></div>
+        
+            <a href="#" class="logo"><span>Xiomara</span> Presidenta.</a>
+        
+            <nav class="navbar">
+                <a href="Inicio.html">Inicio</a>
+                <a href="#book">Geoportal</a>
+                <a href="#packages">Servicios</a>
+                <a href="#services">Mapa general</a>
+                <a href="#gallery">Galeria</a>
+                <a href="#contact">Contactanos</a>
+            </nav>
+        
+            <div class="icons">
+                <i class="fas fa-search" id="search-btn"></i>
+                <i class="fas fa-user" id="login-btn"></i>
+            </div>
+        
+            <form action="" class="search-bar-container">
+                <input type="search" id="search-bar" placeholder="search here...">
+                <label for="search-bar" class="fas fa-search"></label>
+            </form>
+        
+        </header>
+
+        <div class="login-form-container">
+
+            <i class="fas fa-times" id="form-close"></i>
+        
+            <form action="">
+                <h3>login</h3>
+                <input type="email" class="box" placeholder="Ingresa tu Email">
+                <input type="password" class="box" placeholder="Ingresa tu contraseña">
+                <input type="submit" value="login now" class="btn">
+                <input type="checkbox" id="remember">
+                <label for="remember">Recordar.</label>
+                <p>Olividastes la contraseña? <a href="#">Click aqui</a></p>
+                <p>No tienes una cuenta? <a href="#">registrate aqui.</a></p>
+            </form>
+        
+        </div> 
+        
+        <div class="title-mapa">
+            <h1>Proyecto entrega de bonos Tecnológicos Productivos</h1> 
+            <article>
+                <h2>Gobierno de la republica</h2>
+                <p>
+                    Más de 60 mil productores a nivel nacional ya recibieron el Bono Tecnológico Productivo (BTP), por parte del gobierno mediante la Secretaría de Agricultura y Ganadería (SAG).
+                     La entrega del BTP, la estamos realizando en un tiempo récord, llegando a todos aquellos pequeños productores de granos básicos», informó, la titular de la SAG, Laura Elena Suazo Torres.
+                     La ministra Suazo reafirmó que para la siembra de primera se entregarán unos 120 mil BTP, y en cuento se concluya con el total de este beneficio para los productores, viene el proceso de la asistencia técnica a los mismos para asegurar un mejor aprovechamiento del insumo.
+
+                     El programa de gobierno del BTP, de la presidenta Xiomara Castro es es coordinado por la SAG, a través de la Dirección de Ciencia y Tecnología Agropecuaria (DICTA), dependencia adscrita a la institución. <br> <br>
+                     La funcionaria indicó que el avance de esta acción es para darle cumplimiento a una de las promesas de campaña de la señora presidente Xiomara Castro y como parte de la estrategia de su plan de gobierno para promover y reactivar al sector productivo nacional.
+                     El BTP, consiste en dotar de semilla mejorada, fertilizante y otros insumos a los pequeños productores, para la siembra de una manzana de cultivo, ya sea de maíz, frijol, arroz o sorgo; además de la provisión de los servicios de asistencia técnica y capacitación a través de 200 técnicos contratados para tal labor.
+
+
+                </p>
+            </article>
+            <div class="imagenes-mapa">
+                <img src="Entrega1.jpg" alt="1">
+                <img src="Entrega2.jpg" alt="2">
+                <img src="Entrega3.jpg" alt="3">
+                
+            </div>
+
+        </div>
+        <div class="mapa-enbobenido2">
+            <iframe  style="border: none;" height="900" width="1680" src="http://localhost:8083/mapstore/dashboard-embedded.html#/197"></iframe>
+        </div>
+
+        <section class="footer">
+
+            <div class="box-container">
+        
+                <div class="box">
+                    <h3>Sobre Nosotros</h3>
+                    <p>Aplicacion de los SIG al desarrollo sostenible de Honduras.</p>
+                </div>
+                <div class="box">
+                    <h3>Enlaces</h3>
+                    <a href="#">Inicio</a>
+                    <a href="#">Geoportal</a>
+                    <a href="#">Servicios</a>
+                    <a href="#">Mapa general</a>
+                    <a href="#">Investigaciones</a>
+                    <a href="#">Contactanos</a>
+                </div>
+                <div class="box">
+                    <h3>Siguenos en: </h3>
+                    <a href="#" class="fa-brands fa-facebook-f">Facebok</a>
+                    <a href="#" class="fa-brands fa-instagram">Instagram</a>
+                    <a href="#"class="fa-brands fa-twitter">Twitter</a>
+                    <a href="#" class="fa-brands fa-github">Github</a>
+                </div>
+        
+            </div>
+        
+            <h1 class="credit"> Creado por <span> Carlos Archaga Analista SIG. </span> | Derechos reservador </h1>
+        
+        </section>
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> 
+        <script src="https://unpkg.com/scrollreveal"></script> 
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+        <script src="scripts1.js"></script>
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script> 
+    <script src="leaflet-measure.js"></script>
+    <script src="Control.MiniMap.js"></script>
+    <script src="leaflet-panel-layers.js"></script>
+    <script src="leaflet-providers.js"></script>
+    <script src="leaflet.legend.js"></script>
+    
+    <script src="Mapa4.js"></script>
+    
+</body>
+</html>
